@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 5.9vh;
+}
+
+nav {
+    background-color: black;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    
+}
+
+.cont1 {
+    display: inline-flex;
+    position: relative;
+    z-index: 3;
+}
+
+.image {
+    /* background-color: blue; */
+    width: 4vw;
+    height: 5vh;
+    padding: 3px;
+    background-image: url(flower.jpg);
+    background-size: 5vw 6vh;
+}
+
+.nav-bar {
+    padding: 8px;
+}
+
+.nav-bar li {
+    display: inline;
+    margin: 8px;
+    
+}
+.nav-bar li a{
+    text-decoration: none;
+    color: white;
+}
+
+.m1 {
+    background-color: aquamarine;
+    padding: 10px;
+    /* text-align: center; */
+    height: 130vh;
+    position: relative;
+    z-index: 2;
+    position: relative;
+    z-index: 1;
+    }
+    .m1-1{
+        margin: 1vh 0vw;
+    }
+
+.m2{
+    background-color: blue;
+    color: violet;
+    width: 8vw;
+    height: 2vh;
+    padding: 1vh;
+    text-align: center;
+    position: fixed;
+    left: 85vw;
+    top: 92vh;
+
+    }
+.m2-1{
+    text-align: center;
+    text-decoration: underline;
+}
+.m3{
+    float: left;
+    margin: 2vh auto;
+}
+.m4{
+    width: 49vw;
+    height: 1vh;
+    float: left;
+    margin: 2vh 4vw;
+
+}
+.m5{
+    float: left;
+    clear: left;
+    margin: 13vh auto;
+}
+.m6{
+    width: 50vw;
+    height: 1vh;
+    margin: 12.5vh 4vw;
+    float: left;
+}
+.m7{
+    float: left;
+    clear: left;
+}
+.m8{
+    float: left;
+    margin: 0vh 4vw;
+    width: 43vw;
+    height: 3vh;
+}
+.phone{
+    border: 2px solid red;
+}
